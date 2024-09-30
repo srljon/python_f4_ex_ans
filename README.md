@@ -1,5 +1,3 @@
-# Welcome to GitHub Desktop!
+# Welcome to SRL - Form 4 Python Classwork Exercises & Answers!!!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Please navigate to the exercises that we did during class.

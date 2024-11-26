@@ -25,5 +25,6 @@ while total <= 2499:
     day += 1  # Move to the next day
 
 # Print final results
+# f-strings (formatted string literals) allow us to embed expressions inside string literals using {}
 print(f"\nIt took {day-1} days to save ${total}")
 

@@ -9,9 +9,11 @@ value = input( 'Please enter some text here: ' )
 2. if the input value is not empty, the function should print "Input value is not empty.".
 """
 
+# Prompt user for input and store the response
 value = input( 'Please enter some text here: ' )
 
-if value == '':
-  print('Input value is empty.')
+# Check if the input string is empty
+if value == '':         # Compare input against an empty string ''
+    print('Input value is empty.')      # Message if user just pressed Enter without typing
 else:
-  print('Input value is not empty.')
+    print('Input value is not empty.')  # Message if user typed any characters

@@ -25,16 +25,24 @@ Answer: Approximately 1283.36
 
 """
 
-# Initial principal
-P = 1000
-# Rate of interest
-r = 0.05
-# Number of times interest applied per time period
-n = 12
-# Number of time periods elapsed
-t = 5
-# Calculate the compound interest
+# Initial principal amount (starting investment)
+P = 1000  # $1000 as the initial deposit
+
+# Annual interest rate (5% expressed as 0.05)
+r = 0.05  # 5% annual interest rate
+
+# Number of times interest is compounded per year
+n = 12    # Monthly compounding (12 times per year)
+
+# Total number of years for the investment
+t = 5     # 5-year investment period
+
+# Calculate the final amount using the compound interest formula
+# A = P(1 + r/n)^(nt)
+# Where (1 + r/n) is the interest factor per compounding period
+# and (n*t) is the total number of times interest is compounded
 A = P * (1 + r/n)**(n*t)
-# Print the result
-print(A)
+
+# Print the final amount after 5 years of compound interest
+print(A)  # Result will be approximately 1283.36
 

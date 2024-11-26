@@ -13,20 +13,26 @@ steps = int( input( 'Enter a positive increment/decrement value: ' ) )
 4. Use while loops to iterate and print values.
 """
 
-steps = int( input( 'Enter a positive increment/decrement value: ' ) )
+# Get user input for the step value
+steps = int(input('Enter a positive increment/decrement value: '))
 
+# Input validation loop: ensure the step value is positive
 while steps <= 0:
     print("Error: Please enter a positive value!!")
-    steps = int( input( 'Enter a positive increment/decrement value: ' ) )
+    steps = int(input('Enter a positive increment/decrement value: '))
 
+# Initialize starting value for incrementing loop
 number_increment = 1
 
+# First loop: Increment from 1 to 100
 while number_increment <= 100:
     print(number_increment)
-    number_increment += steps
+    number_increment += steps  # Add the step value in each iteration
 
+# Initialize starting value for decrementing loop
 number_decrement = 100
 
+# Second loop: Decrement from 100 to 1
 while number_decrement >= 1:
     print(number_decrement)
-    number_decrement -= steps
+    number_decrement -= steps  # Subtract the step value in each iteration

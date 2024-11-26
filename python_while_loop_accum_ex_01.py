@@ -9,11 +9,21 @@ The final sum number is 2500
 Save your file as "ClassNumber_YourName_Ex01.py"
 """
 
+# Initialize counter variable
 i = 1
+# Initialize sum variable to store the running total
 total = 0
 
+# Loop runs 50 times because we need to generate 50 odd numbers (1 to 99)
 while i <= 50:
+    # Formula (2*i - 1) generates odd numbers:
+    # When i=1: 2*1-1 = 1
+    # When i=2: 2*2-1 = 3
+    # When i=3: 2*3-1 = 5
+    # And so on...
     total = total + (2*i - 1)
+    # Increment counter
     i = i + 1
 
+# Print the final sum of all odd numbers from 1 to 99
 print(total)
